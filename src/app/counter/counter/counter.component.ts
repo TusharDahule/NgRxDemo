@@ -6,17 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./counter.component.scss']
 })
 export class CounterComponent {
-  counter = 0;
-
-  onIncrement(): void {
-    this.counter++;
-  }
-
-  onDecrement(): void {
-    this.counter--;
-  }
-
-  onReset(): void {
-    this.counter = 0;
-  }
 }
