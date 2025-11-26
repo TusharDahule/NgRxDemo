@@ -3,6 +3,6 @@
   <button class="btn btn-primary" (click)="onAdd()">Add to counter</button>
 </div> -->
 <div>
-  {{channelName}}
+  {{channelName$ | async}}
   <button class="btn btn-primary" (click)="onChangeChannelName()">Change Channel Name</button>
 </div>
