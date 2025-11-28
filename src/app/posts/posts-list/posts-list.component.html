@@ -17,7 +17,8 @@
           <td>{{post.title}}</td>
           <td>{{post.description}}</td>
           <td>
-            <a href="#" [routerLink]="['/posts/edit-post', post.id]" class="btn btn-primary">Update</a>
+            <a href="#" [routerLink]="['/posts/edit-post', post.id]" class="btn btn-primary">Update</a>&nbsp;
+            <button class="btn btn-danger" (click)="onDeletePost(post.id)">Delete</button>
           </td>
         </tr>
       </tbody>
