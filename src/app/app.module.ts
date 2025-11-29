@@ -8,7 +8,6 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { HomeComponent } from './home/home.component';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from 'src/environments/environment';
-import { appReducer } from './store/app.state';
 
 @NgModule({
   declarations: [
